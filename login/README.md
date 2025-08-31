@@ -13,8 +13,8 @@ pip install bcrypt sqlalchemy
 
 Edita `login/backend/functions.py` y cambia estas líneas:
 ```python
-from connect import *  # --- > Cambia por tu conexión a BD engine
-from database import model  # --- > Cambia por tu modelo ORM
+from login.database_model_DELETE_THIS_DIR import model # --- > Import Here Your ORM Model
+from login.database_model_DELETE_THIS_DIR.model import get_Session # --- > Import Here Your DB conecction
 ```
 
 ### 4. Asegúrate de tener un modelo User con:
