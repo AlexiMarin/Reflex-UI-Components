@@ -1,4 +1,4 @@
-# README - Login Component Package
+# Login Component Package
 
 ## Instalación y Uso
 
